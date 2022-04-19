@@ -102,7 +102,7 @@ This code imports the WorkflowDesigner component for use in the markup code, and
 
 > **NOTE:** Be careful with the case of the characters when specifying the parameters. For example: `apiUrl` and `apiurl` are two completely different values.
 
-If you want to display the Workflow scheme in the Workflow Designer interface, set the required value to the `schemeсode` variable, and assign the empty string to the `processId`. In case you want to display the Workflow process, assign the empty string to the `schemecode`, and the required value to the `processId` variable of the WorkflowEngine process identifier.
+If you want to display the Workflow scheme in the Workflow Designer interface, set the required value to the `schemecode` variable, and assign the empty string to the `processId`. In case you want to display the Workflow process, assign the empty string to the `schemecode`, and the required value to the `processId` variable of the WorkflowEngine process identifier.
 
 
 Then, paste the following code into the `src/app/app.component.html` file:
