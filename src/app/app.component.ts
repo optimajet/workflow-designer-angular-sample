@@ -5,13 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  schemeCode = 'SimpleWF';
+  schemeCode = 'TestScheme';
   processId = '';
   designerConfig = {
     renderTo: 'wf-designer',
     uploadFormId: 'wf-uploadFormId',
     uploadFileId: 'wf-uploadFileId',
-    apiurl: 'https://workflowengine.io/demo/Designer/API',
+    apiurl: 'http://localhost:5000/Designer/API',
     widthDiff: 0,
     heightDiff: 0
   };
