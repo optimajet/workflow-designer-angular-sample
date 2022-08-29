@@ -1,18 +1,27 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+// @ts-ignore
+import el from './localization/el.json';
+// @ts-ignore
+import elElementUILocalization from './localization/el.js';
+
+el.elementUILocalization = elElementUILocalization;
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  schemeCode = 'TestScheme';
+  schemeCode = 'SimpleWF';
   processId = '';
   designerConfig = {
+    apiurl: 'https://workflowengine.io/demo/Designer/API',
     renderTo: 'wf-designer',
     uploadFormId: 'wf-uploadFormId',
     uploadFileId: 'wf-uploadFileId',
-    apiurl: 'http://localhost:5000/Designer/API',
     widthDiff: 0,
-    heightDiff: 0
+    heightDiff: 0,
+    name: 'wfe',
+    language: 'en',
+    customLocalization: [el]
   };
 }
