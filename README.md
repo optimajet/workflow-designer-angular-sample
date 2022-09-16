@@ -167,6 +167,7 @@ The `@optimajet/workflow-designer-angular` component is a wrapper over the usual
        designerConfig: {
          name: 'wfdesigner',
          apiurl: '<YOUR_API_URL_VALUE>',
+         templatefolder: '/templates/',
          widthDiff: 0,
          heightDiff: 0
        }

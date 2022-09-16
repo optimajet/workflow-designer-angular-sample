@@ -14,7 +14,7 @@ export class AppComponent {
   schemeCode = 'SimpleWF';
   processId = '';
   designerConfig = {
-    apiurl: 'https://workflowengine.io/demo/Designer/API',
+    apiurl: 'https://demo.workflowengine.io/Designer/API',
     renderTo: 'wf-designer',
     uploadFormId: 'wf-uploadFormId',
     uploadFileId: 'wf-uploadFileId',
