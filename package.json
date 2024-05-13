@@ -1,6 +1,6 @@
 {
   "name": "workflow-designer-angular-sample",
-  "version": "13.0.0",
+  "version": "13.1.0",
   "description": "Designer for Workflow Engine Angular Sample",
   "keywords": [
     "designer",
@@ -30,8 +30,8 @@
     "@angular/platform-browser": "^17.0.2",
     "@angular/platform-browser-dynamic": "^17.0.2",
     "@angular/router": "^17.0.2",
-    "@optimajet/workflow-designer": "^13.0.0",
-    "@optimajet/workflow-designer-angular": "^13.0.0",
+    "@optimajet/workflow-designer": "^13.1.0",
+    "@optimajet/workflow-designer-angular": "^13.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
