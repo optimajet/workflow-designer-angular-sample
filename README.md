@@ -198,7 +198,6 @@ A complete list of the methods available for use from the `WorkflowDesigner` com
 | getDesignerErrors()                  | Get Workflow Designer Errors<br/>**Returns** Errors in Workflow Designer |
 | save(successCallback, errorCallback) | Save Workflow scheme<br/>**successCallback** Function which will be executed if save was successful<br/>**errorCallback** Function which will be executed if save operation failed |
 | downloadScheme()                     | Download XML file with Workflow Scheme description |
-| downloadBpmn()                       | Download BPMN file with BPM description of the scheme. |
 | upload(uploadType, callback)         | Upload BPMN or XML file.<br>**uploadType** Upload type, can be 'scheme' or 'bpmn'<br/>**callback** Function that will be executed after uploading file |
 | isSchemeExist()                      | Check for scheme existence by the scheme code from props. <br>**Returns** {boolean} If scheme exists true, otherwise, false |
 | isProcessExist()                     | Check for process existence by scheme code and process id given in props. <br>**Returns** {boolean} If process exists true, otherwise, false |
