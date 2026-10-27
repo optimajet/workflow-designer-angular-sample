@@ -39,6 +39,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "allowedCommonJsDependencies": [
+              "jquery",
+              "moment"
+            ],
             "styles": [
               "src/styles.css",
               "node_modules/@optimajet/workflow-designer/dist/workflowdesigner.min.css"
